@@ -12,15 +12,16 @@ int main(void)
 	char CH = 'A';
 
 	while (ch <= 'z')
-        {
+	{
 		putchar(ch);
-	        ch++;
+		ch++;
 	}
-	while (ch <= 'Z')
-        {   
-		putchar(ch);
-	        ch++;
-        }
+	while (ch <= 'z')
+	{
+		putchar(CH);
+		CH++;
+	}
 	putchar('\n');
+
 	return (0);
 }
