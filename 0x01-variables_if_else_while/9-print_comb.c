@@ -1,11 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Description : print 0,1-9
+ * Description: print 0, 1, - 9
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
 	int digit = 0;
@@ -15,7 +17,10 @@ int main(void)
 		putchar(digit + 48);
 
 		if (digit != 9)
-			putchar(",");
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		digit++;
 	}
 	putchar('\n');
