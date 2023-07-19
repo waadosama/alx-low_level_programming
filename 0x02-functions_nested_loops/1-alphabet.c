@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main_h"
 /**
  * print_alphabet - utilizes on the _putchar function to print
  *                 print alphabet a - z
