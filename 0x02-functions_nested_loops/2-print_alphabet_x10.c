@@ -1,16 +1,15 @@
-#include"main.h"
+#include "main.h"
+
 /**
- * print_alphabet - utilizes on the _putchar function to print
- *                 print alphabet a - z
- *
-*/
-void print_alphabet(void)
+ * _islower - check if char is lowercase
+ * @c: is the char to be checked
+ * Return: 1 if char is lowercase, otherwise 0.
+ */
+
+int _islower(int c)
 {
-int line, ch;
-for (line = 1, line <= 9, line++)
-{
-for (ch = 'a'; ch = 'z'; ch++)
-_putchar(ch);
-_putchar('\n');
-}
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
