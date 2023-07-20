@@ -14,12 +14,12 @@ int main(void)
 	for (c = 0; c < 50; c++)
 	{
 		sum = fib1 + fib2;
-		printf("%d", sum);
+		printf("%lu", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 49)
+		if (c == 49)
 			printf("\n");
 		else
 			printf(", ");
