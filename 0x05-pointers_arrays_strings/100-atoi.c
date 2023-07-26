@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _atoi - converts a string to an intger
+ * _atoi  - converts a string to an intger
  *
  * @s: string input paramter
  *
