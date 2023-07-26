@@ -13,7 +13,7 @@ int i = -i;
 
 do {
 i++;
-dest[i] = scr[i];
-} while (scr[i] != '\0');
+dest[i] = src[i];
+} while (src[i] != '\0');
 return (dest);
 }
