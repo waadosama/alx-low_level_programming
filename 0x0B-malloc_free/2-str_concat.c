@@ -4,7 +4,7 @@
  * @m: string
  * Return:int
 */
-int _strlen(char *s)
+int _strlen(char *s) 
 {
 int size = 0;
 
