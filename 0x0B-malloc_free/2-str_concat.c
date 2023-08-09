@@ -10,7 +10,6 @@ int size = 0;
 
 for (; s[size] != '\0'; size++)
 return (size);
-}
 
 /**
  * *str_concat - concatenats two strings
