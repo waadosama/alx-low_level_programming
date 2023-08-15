@@ -5,7 +5,7 @@
  * struct dog - a dog struct
  * @name : dog's name
  * @age : dog's age
- * @owener : owener's name
+ * @owner : owner's name
  *
  * Description : just a long dog struct in big kitty world
 */
@@ -13,7 +13,7 @@ struct dog
 {
 char *name;
 float age;
-char *owener;
+char *owner;
 };
 
 #endif
