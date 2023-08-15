@@ -15,4 +15,5 @@ char *name;
 float age;
 char *owener;
 };
+
 #endif
