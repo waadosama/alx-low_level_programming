@@ -19,4 +19,5 @@ if (cmp(array[i]))
 return (i);
 i++;
 }
+return (-1);
 }
