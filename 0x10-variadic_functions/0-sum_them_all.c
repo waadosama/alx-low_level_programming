@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
 /**
  *sum_them_all -sums variable arguments
@@ -20,4 +20,3 @@ s += va_arg(ap, int);
 va_end(ap);
 return (s);
 }
-
