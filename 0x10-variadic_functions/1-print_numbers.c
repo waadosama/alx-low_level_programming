@@ -19,7 +19,7 @@ return;
 }
 va_start(ap, n);
 while (i--)
-printf("%d %s", va_arg(ap, int));
+printf("%d", va_arg(ap, int));
 i ? (separator ? separator : "") : "\n";
 va_end(ap);
 }
